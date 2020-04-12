@@ -3,6 +3,8 @@ using OpenQA.Selenium;
 using SeleniumPoc.Func.Tests.Pages;
 using TechTalk.SpecFlow;
 
+
+[assembly: Parallelize(Workers = 0, Scope = ExecutionScope.MethodLevel)]
 namespace SeleniumPoc.Func.Tests.Steps
 {
     [Binding]
