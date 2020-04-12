@@ -4,10 +4,7 @@ namespace SeleniumPoc.Func.Tests.Pages
 {
     public class GooglePage : BasePage
     {
-        public GooglePage(IWebDriver driver) : base(driver) 
-        {
-            Driver = driver;
-        }
+        public GooglePage(IWebDriver driver) : base(driver) => Driver = driver;
 
         public By SearchField => By.Name("q");
 

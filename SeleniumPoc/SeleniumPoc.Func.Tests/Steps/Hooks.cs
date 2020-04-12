@@ -29,9 +29,6 @@ namespace SeleniumPoc.Func.Tests.Steps
         }
 
         [AfterScenario]
-        public void AfterScenario()
-        {
-            Driver.Close();
-        }
+        public void AfterScenario() => Driver.Close();
     }
 }
