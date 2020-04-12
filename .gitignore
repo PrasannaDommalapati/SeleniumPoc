@@ -3,3 +3,11 @@
 ################################################################################
 
 /SeleniumPoc/.vs/SeleniumPoc/v16
+/SeleniumPoc.Func.Tests/obj/Debug
+/SeleniumPoc.Func.Tests/bin/Debug/netcoreapp3.1
+/SeleniumPoc.Func.Tests/obj
+*.user
+/SeleniumPoc/bin/Debug/netcoreapp3.1
+/SeleniumPoc/obj/Debug
+/.vs/SeleniumPoc
+/packages/MSTest.TestAdapter.2.1.1/build/netcoreapp1.0
