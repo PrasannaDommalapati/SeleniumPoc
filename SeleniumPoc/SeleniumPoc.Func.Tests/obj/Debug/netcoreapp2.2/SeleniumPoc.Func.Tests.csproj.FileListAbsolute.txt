@@ -1,0 +1,17 @@
+C:\repos\SeleniumPoc\SeleniumPoc.Func.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\repos\SeleniumPoc\SeleniumPoc.Func.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\repos\SeleniumPoc\SeleniumPoc.Func.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\repos\SeleniumPoc\SeleniumPoc.Func.Tests\bin\Debug\netcoreapp2.2\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll
+C:\repos\SeleniumPoc\SeleniumPoc.Func.Tests\bin\Debug\netcoreapp2.2\SeleniumPoc.Func.Tests.deps.json
+C:\repos\SeleniumPoc\SeleniumPoc.Func.Tests\bin\Debug\netcoreapp2.2\SeleniumPoc.Func.Tests.runtimeconfig.json
+C:\repos\SeleniumPoc\SeleniumPoc.Func.Tests\bin\Debug\netcoreapp2.2\SeleniumPoc.Func.Tests.runtimeconfig.dev.json
+C:\repos\SeleniumPoc\SeleniumPoc.Func.Tests\bin\Debug\netcoreapp2.2\SeleniumPoc.Func.Tests.dll
+C:\repos\SeleniumPoc\SeleniumPoc.Func.Tests\bin\Debug\netcoreapp2.2\SeleniumPoc.Func.Tests.pdb
+C:\repos\SeleniumPoc\SeleniumPoc.Func.Tests\bin\Debug\netcoreapp2.2\SeleniumPoc.dll
+C:\repos\SeleniumPoc\SeleniumPoc.Func.Tests\bin\Debug\netcoreapp2.2\SeleniumPoc.pdb
+C:\repos\SeleniumPoc\SeleniumPoc.Func.Tests\obj\Debug\netcoreapp2.2\SeleniumPoc.Func.Tests.csprojAssemblyReference.cache
+C:\repos\SeleniumPoc\SeleniumPoc.Func.Tests\obj\Debug\netcoreapp2.2\SeleniumPoc.Func.Tests.AssemblyInfoInputs.cache
+C:\repos\SeleniumPoc\SeleniumPoc.Func.Tests\obj\Debug\netcoreapp2.2\SeleniumPoc.Func.Tests.AssemblyInfo.cs
+C:\repos\SeleniumPoc\SeleniumPoc.Func.Tests\obj\Debug\netcoreapp2.2\SeleniumPoc.Func.Tests.csproj.CopyComplete
+C:\repos\SeleniumPoc\SeleniumPoc.Func.Tests\obj\Debug\netcoreapp2.2\SeleniumPoc.Func.Tests.dll
+C:\repos\SeleniumPoc\SeleniumPoc.Func.Tests\obj\Debug\netcoreapp2.2\SeleniumPoc.Func.Tests.pdb

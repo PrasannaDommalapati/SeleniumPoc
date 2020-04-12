@@ -1,0 +1,7 @@
+C:\repos\SeleniumPoc\SeleniumPoc\bin\Debug\netcoreapp3.1\SeleniumPoc.deps.json
+C:\repos\SeleniumPoc\SeleniumPoc\bin\Debug\netcoreapp3.1\SeleniumPoc.dll
+C:\repos\SeleniumPoc\SeleniumPoc\bin\Debug\netcoreapp3.1\SeleniumPoc.pdb
+C:\repos\SeleniumPoc\SeleniumPoc\obj\Debug\netcoreapp3.1\SeleniumPoc.AssemblyInfoInputs.cache
+C:\repos\SeleniumPoc\SeleniumPoc\obj\Debug\netcoreapp3.1\SeleniumPoc.AssemblyInfo.cs
+C:\repos\SeleniumPoc\SeleniumPoc\obj\Debug\netcoreapp3.1\SeleniumPoc.dll
+C:\repos\SeleniumPoc\SeleniumPoc\obj\Debug\netcoreapp3.1\SeleniumPoc.pdb
