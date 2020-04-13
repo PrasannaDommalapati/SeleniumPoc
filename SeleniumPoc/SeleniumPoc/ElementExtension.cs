@@ -1,4 +1,5 @@
 ﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
 using System;
 
 namespace SeleniumPoc
@@ -65,7 +66,7 @@ namespace SeleniumPoc
             }
         }
 
-        public static bool IsElementEnabled(this By identifier, IWebDriver driver)
+        public static bool IsEnabled(this By identifier, IWebDriver driver)
         {
             try
             {
@@ -77,7 +78,7 @@ namespace SeleniumPoc
             }
         }
 
-        public static bool IsElementDisplayed(this By identifier, IWebDriver driver)
+        public static bool IsDisplayed(this By identifier, IWebDriver driver)
         {
             try
             {
@@ -89,7 +90,7 @@ namespace SeleniumPoc
             }
         }
 
-        public static bool Selected(this By identifier, IWebDriver driver)
+        public static bool IsSelected(this By identifier, IWebDriver driver)
         {
             try
             {
@@ -99,6 +100,40 @@ namespace SeleniumPoc
             {
                 throw new SeleniumPocException(ex.Message);
             }
+        }
+
+        public static SelectElement SelectElement(this By identifier, IWebDriver driver)
+        {
+            try
+            {
+                var element = driver.FindElement(identifier);
+                return new SelectElement(element);
+            }
+            catch (Exception ex)
+            {
+                throw new SeleniumPocException(ex.Message);
+            }
+        }
+
+        public static void SelectByValue(this By identifier, IWebDriver driver, string text)
+        {
+            var element = SelectElement(identifier, driver);
+
+            element.SelectByValue(text);
+        }
+
+        public static void SelectByIndex(this By identifier, IWebDriver driver, int index)
+        {
+            var element = SelectElement(identifier, driver);
+
+            element.SelectByIndex(index);
+        }
+
+        public static void SelectByText(this By identifier, IWebDriver driver, string text)
+        {
+            var element = SelectElement(identifier, driver);
+
+            element.SelectByText(text);
         }
     }
 }
