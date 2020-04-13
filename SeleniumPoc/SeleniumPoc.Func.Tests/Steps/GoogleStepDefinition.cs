@@ -3,7 +3,6 @@ using OpenQA.Selenium;
 using SeleniumPoc.Func.Tests.Pages;
 using TechTalk.SpecFlow;
 
-
 [assembly: Parallelize(Workers = 0, Scope = ExecutionScope.MethodLevel)]
 namespace SeleniumPoc.Func.Tests.Steps
 {
@@ -13,7 +12,7 @@ namespace SeleniumPoc.Func.Tests.Steps
 
         private readonly IWebDriver Driver;
         private readonly TestContext TestContext;
-        private GooglePage GooglePage;
+        private LoginPage LoginPage;
 
         public GoogleStepDefinition(IWebDriver driver, TestContext testContext)
         {
@@ -27,12 +26,12 @@ namespace SeleniumPoc.Func.Tests.Steps
             Driver.Navigate().GoToUrl(url);
         }
 
-        [When("I enter '(.*)'")]
-        public void WhenIEnter(string keyword)
+        [When("I enter '(.*)' and '(.*)'")]
+        public void WhenIEnterAnd(string userName, string password)
         {
-            GooglePage = new GooglePage(Driver);
+            LoginPage = new LoginPage(Driver);
 
-            GooglePage.SearchKeyword(keyword);
+            LoginPage.Login(userName, password);
         }
     }
 }

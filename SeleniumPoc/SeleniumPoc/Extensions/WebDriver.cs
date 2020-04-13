@@ -1,11 +1,13 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Text;
 
-namespace SeleniumPoc
+namespace SeleniumPoc.Extensions
 {
-    public static class DriverExtensions
+    public static class WebDriver
     {
         public static IWebElement FindWebElement(this IWebDriver driver, By by, int timeoutInSeconds = 5)
         {

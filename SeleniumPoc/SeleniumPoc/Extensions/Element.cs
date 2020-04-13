@@ -2,9 +2,9 @@
 using OpenQA.Selenium.Support.UI;
 using System;
 
-namespace SeleniumPoc
+namespace SeleniumPoc.Extensions
 {
-    public static class ElementExtension
+    public static class Element
     {
         public static void TypeInto(this By identifier, IWebDriver driver, string text)
         {
